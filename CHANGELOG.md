@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/lecardozo/pip-resolved/compare/v0.1.0...v0.1.1) (2022-10-21)
+
+
+### Miscellaneous
+
+* minor restructure ([f96a76e](https://github.com/lecardozo/pip-resolved/commit/f96a76e21fb398dab1d89bd28128cf9c5423c03b))
+
 ## 0.1.0 (2022-10-21)
 
 
