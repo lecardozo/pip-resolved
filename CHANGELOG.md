@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/lecardozo/pip-resolved/compare/v0.1.1...v0.1.2) (2022-10-21)
+
+
+### Process Automation
+
+* join release and publish pipeliens ([748976f](https://github.com/lecardozo/pip-resolved/commit/748976f0efaa1058e8ad5b32fdd5d453ab9ad521))
+
 ## [0.1.1](https://github.com/lecardozo/pip-resolved/compare/v0.1.0...v0.1.1) (2022-10-21)
 
 
