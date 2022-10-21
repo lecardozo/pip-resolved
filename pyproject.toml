@@ -1,6 +1,6 @@
 [project]
 name = "pip-resolved"
-version = "0.1.2"
+version = "0.1.3"
 description = "Install wheels with pre-resolved dependencies"
 authors = [
     {name = "Lucas Cardozo", email = "lucasecardozo@gmail.com"},

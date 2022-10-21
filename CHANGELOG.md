@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/lecardozo/pip-resolved/compare/v0.1.2...v0.1.3) (2022-10-21)
+
+
+### Bug Fixes
+
+* add installer as dependency ([9e969ba](https://github.com/lecardozo/pip-resolved/commit/9e969baae83f3d8cd4573888009e2df6f3d09935))
+
 ## [0.1.2](https://github.com/lecardozo/pip-resolved/compare/v0.1.1...v0.1.2) (2022-10-21)
 
 
