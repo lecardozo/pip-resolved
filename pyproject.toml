@@ -17,7 +17,7 @@ requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
 
 [project.scripts]
-pip-resolved = "pip_resolved:main"
+pip-resolved = "pip_resolved.main:main"
 
 [tool]
 [tool.pdm]
