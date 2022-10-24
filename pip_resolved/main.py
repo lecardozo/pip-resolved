@@ -7,7 +7,9 @@ import zipfile
 
 def get_requires_dist(wheel):
     with zipfile.ZipFile(wheel) as file:
-        metadata_filename = [i.filename for i in file.filelist if "dist-info/METADATA" in i.filename]
+        metadata_filename = [
+            i.filename for i in file.filelist if "dist-info/METADATA" in i.filename
+        ]
         if not metadata_filename:
             raise FileNotFoundError("Couldn't find METADATA file on distribution")
         metadata = file.read(metadata_filename[0]).decode().split("\n")
@@ -31,7 +33,9 @@ def write_requirements(requirements):
 
 def install_locked_requirements(requirements, wheel):
     with write_requirements(requirements) as requirements_file:
-        subprocess.call(["pip", "install", "--no-deps", "-r", requirements_file, wheel])
+        subprocess.check_call(
+            ["pip", "install", "--no-deps", "-r", requirements_file, wheel]
+        )
 
 
 def install(wheel):
