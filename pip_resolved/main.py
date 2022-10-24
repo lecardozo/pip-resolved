@@ -1,13 +1,17 @@
 import os
 import subprocess
 from argparse import ArgumentParser
-from installer.sources import WheelFile
 from contextlib import contextmanager
+import zipfile
 
 
 def get_requires_dist(wheel):
-    with WheelFile.open(wheel) as file:
-        metadata = file.read_dist_info("METADATA").split("\n")
+    with zipfile.ZipFile(wheel) as file:
+        metadata_filename = [i.filename for i in file.filelist if "dist-info/METADATA" in i.filename]
+        if not metadata_filename:
+            raise FileNotFoundError("Couldn't find METADATA file on distribution")
+        metadata = file.read(metadata_filename[0]).decode().split("\n")
+
     pattern = "Requires-Dist: "
     for line in metadata:
         if line.startswith(pattern):

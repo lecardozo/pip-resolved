@@ -6,7 +6,6 @@ authors = [
     {name = "Lucas Cardozo", email = "lucasecardozo@gmail.com"},
 ]
 dependencies = [
-    "installer>=0.5.1",
 ]
 requires-python = ">=3.7"
 readme = "README.md"
