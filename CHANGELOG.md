@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/lecardozo/pip-resolved/compare/v0.1.4...v0.2.0) (2022-10-24)
+
+
+### Features
+
+* add __main__ and remove installer dependency ([d830eee](https://github.com/lecardozo/pip-resolved/commit/d830eee0e54c87eecad45f25177d0a0c7aa88c4e))
+
 ## [0.1.4](https://github.com/lecardozo/pip-resolved/compare/v0.1.3...v0.1.4) (2022-10-21)
 
 
