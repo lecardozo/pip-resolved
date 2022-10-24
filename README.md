@@ -1,7 +1,7 @@
 # pip-resolved
 
 ## Why?
-With tools such as Poetry, PDM and pip-tools and we can now build wheels with pinned dependencies, resolved at development time. Unfortunately, pip doesn't offer an easy way to install that without performing a full dependency-tree resolution at install time, which slows down the process.
+With tools such as Poetry, PDM (thanks to [pdm-buildlocked](https://github.com/gazpachoking/pdm-buildlocked)) and pip-tools and we have the tools to build wheels with pinned dependencies, resolved at development time. Unfortunately, pip doesn't offer an easy way to install that without performing a full dependency-tree resolution at install time, which slows down the process.
 
 **pip-resolved** was created as a thin wrapper around pip's existing functionality to allow users to install wheels with pre-resolved dependencies, without the need to package an extra requirements.txt or contraints file.
 
