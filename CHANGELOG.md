@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/lecardozo/pip-resolved/compare/v0.2.0...v0.3.0) (2022-10-24)
+
+
+### Features
+
+* replace call with check call for pip failures ([7a61b89](https://github.com/lecardozo/pip-resolved/commit/7a61b8966fac5fbf557797e84a4409c2ae94d795))
+
 ## [0.2.0](https://github.com/lecardozo/pip-resolved/compare/v0.1.4...v0.2.0) (2022-10-24)
 
 
